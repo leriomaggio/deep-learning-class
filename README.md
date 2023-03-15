@@ -2,23 +2,30 @@
 
 Lecture materials for the Deep Learning lecture presented at MSc in Medical Statistics and Health Data Science, University of Bristol
 
-### Set up the environment
+ Intro slides on <img src="figures/speakerdeck.png"/> [deck](https://speakerdeck.com/leriomaggio/intro-to-deep-learning-class)
 
-Using `conda`: 
 
-```
-    conda env create -f environment.yml
-    conda activate lectures
-```
+## Lecture notes and Practical
 
-### Run Notebook
-
-1. Jupyter notebook:
-
-```
-    jupyter notebook index.ipynb
-```
-
-2. MyBinder (no install)
+### (Recommended) MyBinder (no installation required)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leriomaggio/deep-learning-class/HEAD)
+
+### Running Jupyter notebook on your local computer:
+
+Step 1. Install Anaconda Distribution [link](https://www.anaconda.com/products/distribution) 
+
+Step 2. Set up the environment using `conda`:
+
+```bash
+conda env create -f environment.yml
+conda activate lectures
+```
+
+Step 3. Run `jupyter notebook`: 
+
+```bash
+jupyter notebook index.ipynb
+```
+
+
